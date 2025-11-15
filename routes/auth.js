@@ -1,6 +1,8 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+// Correct import
+const User = require('../models/User'); // Capital U must match file
+
 const router = express.Router();
 
 // Generate JWT Token
